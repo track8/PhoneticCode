@@ -1,0 +1,11 @@
+string to phonetic code. for macruby.
+
+--
+% macirb
+irb(main):001:0> require 'phonetic'
+=> true
+irb(main):002:0> 'ruby'.to_phonetic_code
+=> "Romeo. Uniform. Bravo. Yankee"
+irb(main):003:0> 'ruby'.to_phonetic_code.speech
+=> "Romeo. Uniform. Bravo. Yankee"
+
